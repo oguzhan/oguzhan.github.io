@@ -106,12 +106,29 @@ p {
 .margin-bottom-20 { margin-bottom: 2.0em; }
 
 
+/* @font-face { */
+/*     font-family: akkuratpro-regular; */
+/*     src: url(fonts/akkurat_regular_pro.otf); */
+/* } */
+/* @font-face { */
+/*     font-family: akkuratpro-bold; */
+/*     src: url(fonts/akkurat_bold_pro.otf); */
+/* } */
+/* @font-face { */
+/*     font-family: akkuratpro-italic; */
+/*     src: url(fonts/akkurat_italic_pro.otf); */
+/* } */
+/* @font-face { */
+/*     font-family: akkuratpro-bold-light; */
+/*     src: url(fonts/akkurat_regular_bold_light_pro.otf); */
+/* } */
+
 @font-face {
 	font-family: 'akkuratpro-bold-italic';
 	src: url('fonts/AkkuratPro-BoldItalic.eot');
 	src: url('fonts/AkkuratPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-	url('fonts/AkkuratPro-BoldItalic.woff') format('woff'),
-	url('fonts/AkkuratPro-BoldItalic.ttf') format('truetype');
+	  url('fonts/AkkuratPro-BoldItalic.woff') format('woff'),
+		url('fonts/AkkuratPro-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -120,8 +137,8 @@ p {
 	font-family: 'akkuratpro-regular';
 	src: url('fonts/AkkuratPro-Regular.eot');
 	src: url('fonts/AkkuratPro-Regular.eot?#iefix') format('embedded-opentype'),
-	url('fonts/AkkuratPro-Regular.woff') format('woff'),
-	url('fonts/AkkuratPro-Regular.ttf') format('truetype');
+	  url('fonts/AkkuratPro-Regular.woff') format('woff'),
+		url('fonts/AkkuratPro-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -130,8 +147,8 @@ p {
 	font-family: 'akkuratpro-bold';
 	src: url('fonts/AkkuratPro-Bold.eot');
 	src: url('fonts/AkkuratPro-Bold.eot?#iefix') format('embedded-opentype'),
-	url('fonts/AkkuratPro-Bold.woff') format('woff'),
-	url('fonts/AkkuratPro-Bold.ttf') format('truetype');
+	  url('fonts/AkkuratPro-Bold.woff') format('woff'),
+		url('fonts/AkkuratPro-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -140,8 +157,8 @@ p {
 	font-family: 'akkuratpro-italic';
 	src: url('fonts/AkkuratPro-Italic.eot');
 	src: url('fonts/AkkuratPro-Italic.eot?#iefix') format('embedded-opentype'),
-	url('fonts/AkkuratPro-Italic.woff') format('woff'),
-	url('fonts/AkkuratPro-Italic.ttf') format('truetype');
+	  url('fonts/AkkuratPro-Italic.woff') format('woff'),
+		url('fonts/AkkuratPro-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
