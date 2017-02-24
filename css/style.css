@@ -70,6 +70,34 @@ p {
     padding-right: 0px;
 }
 
+@media (max-width: 767px) {
+    .paragraph {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width:481px)  {
+    .paragraph {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width:641px)  {
+    .paragraph {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width:961px)  {
+    .paragraph {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
 @media (max-width: 991px)
 .border.top, .border.bottom {
     height: 15px;
@@ -123,24 +151,10 @@ p {
 .margin-bottom-10 { margin-bottom: 1.0em; }
 .margin-bottom-15 { margin-bottom: 1.5em; }
 .margin-bottom-20 { margin-bottom: 2.0em; }
-
-
-/* @font-face { */
-/*     font-family: akkuratpro-regular; */
-/*     src: url(fonts/akkurat_regular_pro.otf); */
-/* } */
-/* @font-face { */
-/*     font-family: akkuratpro-bold; */
-/*     src: url(fonts/akkurat_bold_pro.otf); */
-/* } */
-/* @font-face { */
-/*     font-family: akkuratpro-italic; */
-/*     src: url(fonts/akkurat_italic_pro.otf); */
-/* } */
-/* @font-face { */
-/*     font-family: akkuratpro-bold-light; */
-/*     src: url(fonts/akkurat_regular_bold_light_pro.otf); */
-/* } */
+.margin-bottom-25 { margin-bottom: 2.5em; }
+.margin-bottom-30 { margin-bottom: 3.0em; }
+.margin-bottom-35 { margin-bottom: 3.5em; }
+.margin-bottom-40 { margin-bottom: 4.0em; }
 
 @font-face {
 	font-family: 'akkuratpro-bold-italic';
